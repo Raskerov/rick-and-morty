@@ -1,6 +1,15 @@
-<h1>Home#index</h1>
+<h1><%= link_to "Rick & Morty API data visualizer", root_path %></h1>
+
+<div>
+    <%= form_tag search_path, method: "get", class: "form-inline" do %>
+    <%= text_field_tag :name, nil, class: "form-control", placeholder: "Hero Name" %>
+    <%= select_tag :status, options_for_select(['alive', 'dead', 'unknown']), :prompt => "Choose hero status", class: "form-control" %>
+    <%= submit_tag "Show characters", name: nil, class: "btn btn-primary" %>
+    <% end %>
+</div>
+
 <% @characters.each do |hero| %>
-  <div style="border: 2px solid black">
+  <div style="margin-top: 10px; border: 2px solid black; padding: 10px; width: 25%;">
     <p>Name: <%= hero[:name] %></p>
     <p>Status: <%= hero[:status] %></p>
     <p>Species: <%= hero[:species] %></p>

@@ -2,7 +2,7 @@ class HomeController < ApplicationController
 
   def index
     @characters = []
-    split_characters(RickAndMorty.search_characters)
+    split_characters(JSON.parse(RickAndMorty.search_characters(params[:name], params[:status])).slice("results"))
   end
 
   private
