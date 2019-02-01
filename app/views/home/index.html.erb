@@ -1,0 +1,9 @@
+<h1>Home#index</h1>
+<% @characters.each do |hero| %>
+  <div style="border: 2px solid black">
+    <p>Name: <%= hero[:name] %></p>
+    <p>Status: <%= hero[:status] %></p>
+    <p>Species: <%= hero[:species] %></p>
+    <p>Gender: <%= hero[:gender] %></p>
+  </div>
+<% end %>
