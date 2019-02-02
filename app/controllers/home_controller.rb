@@ -2,7 +2,7 @@ class HomeController < ApplicationController
 
   def index
     @characters = []
-    split_characters(JSON.parse(call_api).slice("results"))
+    split_characters(JSON.parse(call_api.to_json).slice("results"))
   end
 
   private

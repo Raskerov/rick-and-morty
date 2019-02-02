@@ -4,13 +4,13 @@ class RickAndMorty
 
   def self.search_characters(params)
     if params[:name].nil? && params[:status].nil?
-      result = HTTParty.get(BASE_URL + "character").to_json
+      result = HTTParty.get(BASE_URL + "character")
     elsif params[:name].nil?
-      result = HTTParty.get(BASE_URL + "character/?status=" + params[:status]).to_json
+      result = HTTParty.get(BASE_URL + "character/?status=" + params[:status])
     elsif params[:status].nil?
-      result = HTTParty.get(BASE_URL + "character/?name=" + params[:name]).to_json
+      result = HTTParty.get(BASE_URL + "character/?name=" + params[:name])
     else
-      result = HTTParty.get(BASE_URL + "character/?name=" + params[:name] + "&status=" + params[:status]).to_json
+      result = HTTParty.get(BASE_URL + "character/?name=" + params[:name] + "&status=" + params[:status])
     end
   end
 end
