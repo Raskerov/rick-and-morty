@@ -12,7 +12,7 @@ describe RickAndMorty do
         stub_request(:get, BASE_URL + "character")
           .to_return(body: file_fixture('characters.json').read)
 
-        result = JSON.parse(RickAndMorty.search_characters(no_params)) #Parse JSON to use json_matcher
+        result = JSON.parse(RickAndMorty.characters) #Parse JSON to use json_matcher
         expect(result).to include_json(expected_response)
       end
     end
@@ -23,7 +23,7 @@ describe RickAndMorty do
         stub_request(:get, BASE_URL + "character/?name=Rick")
           .to_return(body: file_fixture('name_rick_characters.json').read)
 
-        result = JSON.parse(RickAndMorty.search_characters(params_with_name)) #Parse JSON to use json_matcher
+        result = JSON.parse(RickAndMorty.name_query(params_with_name)) #Parse JSON to use json_matcher
         expect(result).to include_json(expected_response)
       end
     end
@@ -34,7 +34,7 @@ describe RickAndMorty do
         stub_request(:get, BASE_URL + "character/?status=alive")
           .to_return(body: file_fixture('status_alive_characters.json').read)
 
-        result = JSON.parse(RickAndMorty.search_characters(params_with_status)) #Parse JSON to use json_matcher
+        result = JSON.parse(RickAndMorty.status_query(params_with_status)) #Parse JSON to use json_matcher
         expect(result).to include_json(expected_response)
       end
     end
@@ -45,7 +45,7 @@ describe RickAndMorty do
         stub_request(:get, BASE_URL + "character/?name=Rick&status=alive")
           .to_return(body: file_fixture('name_and_status_characters.json').read)
 
-        result = JSON.parse(RickAndMorty.search_characters(all_params)) #Parse JSON to use json_matcher
+        result = JSON.parse(RickAndMorty.name_and_status_query(all_params)) #Parse JSON to use json_matcher
         expect(result).to include_json(expected_response)
       end
     end
