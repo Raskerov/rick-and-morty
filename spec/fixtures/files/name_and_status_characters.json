@@ -1,0 +1,208 @@
+{
+      "info": {
+        "count": 21
+      },
+      "results": [
+        {
+          "name": "Rick Sanchez",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "location": {
+            "name": "Earth (Replacement Dimension)"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+        },
+        {
+          "name": "Black Rick",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "location": {
+            "name": "Citadel of Ricks"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/48.jpeg"
+        },
+        {
+          "name": "Cool Rick",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "location": {
+            "name": "Citadel of Ricks"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/72.jpeg"
+        },
+        {
+          "name": "Cop Rick",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "location": {
+            "name": "Citadel of Ricks"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/74.jpeg"
+        },
+        {
+          "name": "Cowboy Rick",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "location": {
+            "name": "Citadel of Ricks"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/78.jpeg"
+        },
+        {
+          "name": "Mega Fruit Farmer Rick",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "location": {
+            "name": "Citadel of Ricks"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/220.jpeg"
+        },
+        {
+          "name": "Pickle Rick",
+          "status": "Alive",
+          "species": "unknown",
+          "gender": "Male",
+          "location": {
+            "name": "Earth (Replacement Dimension)"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/265.jpeg"
+        },
+        {
+          "name": "Plumber Rick",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "location": {
+            "name": "Citadel of Ricks"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/267.jpeg"
+        },
+        {
+          "name": "Rick D716-B",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "location": {
+            "name": "Citadel of Ricks"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/288.jpeg"
+        },
+        {
+          "name": "Rick D716-C",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "location": {
+            "name": "Citadel of Ricks"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/289.jpeg"
+        },
+        {
+          "name": "Rick J-22",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "location": {
+            "name": "Citadel of Ricks"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/291.jpeg"
+        },
+        {
+          "name": "Rick K-22",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "location": {
+            "name": "Earth (Replacement Dimension)"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/292.jpeg"
+        },
+        {
+          "name": "Slow Rick",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "location": {
+            "name": "Citadel of Ricks"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/328.jpeg"
+        },
+        {
+          "name": "Teacher Rick",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "location": {
+            "name": "Citadel of Ricks"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/345.jpeg"
+        },
+        {
+          "name": "Woman Rick",
+          "status": "Alive",
+          "species": "Alien",
+          "gender": "Female",
+          "location": {
+            "name": "unknown"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/381.jpeg"
+        },
+        {
+          "name": "Baby Rick",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "location": {
+            "name": "Citadel of Ricks"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/472.jpeg"
+        },
+        {
+          "name": "Hairdresser Rick",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "location": {
+            "name": "Citadel of Ricks"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/477.jpeg"
+        },
+        {
+          "name": "Journalist Rick",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "location": {
+            "name": "Citadel of Ricks"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/478.jpeg"
+        },
+        {
+          "name": "Secret Service Rick",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "location": {
+            "name": "Citadel of Ricks"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/482.jpeg"
+        },
+        {
+          "name": "Steve Jobs Rick",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "location": {
+            "name": "Citadel of Ricks"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/483.jpeg"
+        }
+      ]
+    
+}

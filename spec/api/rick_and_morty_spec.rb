@@ -2,25 +2,86 @@ require 'rails_helper'
 
 describe RickAndMorty do
 
-  context 'when called' do
-    it "return JSON data pack" do
-      #Mock API
-      stub_request(:get, "https://rickandmortyapi.com/api/character")
-        .to_return(body: file_fixture('characters.json').read)
+  BASE_URL = 'https://rickandmortyapi.com/api/'
+  #Each API mock is designed for specific call, do not change
 
-      result = JSON.parse(RickAndMorty.search_characters(no_params)) #Parse JSON to use json_matcher
-      expect(result).to include_json(expected_response)
+  context 'when called' do
+    context 'with no search params' do
+      it "return JSON data pack" do
+        #Mock API
+        stub_request(:get, BASE_URL + "character")
+          .to_return(body: file_fixture('characters.json').read)
+
+        result = JSON.parse(RickAndMorty.search_characters(no_params)) #Parse JSON to use json_matcher
+        expect(result).to include_json(expected_response)
+      end
+    end
+
+    context 'with name search params' do
+      it "return JSON data pack" do
+        #Mock API
+        stub_request(:get, BASE_URL + "character/?name=Rick")
+          .to_return(body: file_fixture('name_rick_characters.json').read)
+
+        result = JSON.parse(RickAndMorty.search_characters(params_with_name)) #Parse JSON to use json_matcher
+        expect(result).to include_json(expected_response)
+      end
+    end
+
+    context 'with status search params' do
+      it "return JSON data pack" do
+        #Mock API
+        stub_request(:get, BASE_URL + "character/?status=alive")
+          .to_return(body: file_fixture('status_alive_characters.json').read)
+
+        result = JSON.parse(RickAndMorty.search_characters(params_with_status)) #Parse JSON to use json_matcher
+        expect(result).to include_json(expected_response)
+      end
+    end
+
+    context 'with status and name search params' do
+      it "return JSON data pack" do
+        #Mock API
+        stub_request(:get, BASE_URL + "character/?name=Rick&status=alive")
+          .to_return(body: file_fixture('name_and_status_characters.json').read)
+
+        result = JSON.parse(RickAndMorty.search_characters(all_params)) #Parse JSON to use json_matcher
+        expect(result).to include_json(expected_response)
+      end
     end
   end
 
   private
 
   def no_params
-    {name: nil,
-     status: nil}
+    {
+      name: nil,
+      status: nil
+    }
   end
 
-  def expected_response # Picked fragment from fixture
+  def params_with_name
+    {
+      name: "Rick",
+      status: nil
+    }
+  end
+
+  def params_with_status
+    {
+      name: nil,
+      status: "alive"
+    }
+  end
+
+  def all_params
+    {
+      name: "Rick",
+      status: "alive"
+    }
+  end
+
+  def expected_response # Picked fragment from fixture, contains variables for each test (Name, status)
    {'results':
      [
        {

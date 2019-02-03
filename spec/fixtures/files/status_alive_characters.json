@@ -1,0 +1,208 @@
+{
+      "info": {
+        "count": 281
+      },
+      "results": [
+        {
+          "name": "Rick Sanchez",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "location": {
+            "name": "Earth (Replacement Dimension)"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+        },
+        {
+          "name": "Morty Smith",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "location": {
+            "name": "Earth (Replacement Dimension)"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+        },
+        {
+          "name": "Summer Smith",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Female",
+          "location": {
+            "name": "Earth (Replacement Dimension)"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg"
+        },
+        {
+          "name": "Beth Smith",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Female",
+          "location": {
+            "name": "Earth (Replacement Dimension)"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg"
+        },
+        {
+          "name": "Jerry Smith",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "location": {
+            "name": "Earth (Replacement Dimension)"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/5.jpeg"
+        },
+        {
+          "name": "Abadango Cluster Princess",
+          "status": "Alive",
+          "species": "Alien",
+          "gender": "Female",
+          "location": {
+            "name": "Abadango"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/6.jpeg"
+        },
+        {
+          "name": "Annie",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Female",
+          "location": {
+            "name": "Anatomy Park"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/17.jpeg"
+        },
+        {
+          "name": "Antenna Morty",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "location": {
+            "name": "Citadel of Ricks"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/18.jpeg"
+        },
+        {
+          "name": "Armagheadon",
+          "status": "Alive",
+          "species": "Alien",
+          "gender": "Male",
+          "location": {
+            "name": "Signus 5 Expanse"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/24.jpeg"
+        },
+        {
+          "name": "Arthricia",
+          "status": "Alive",
+          "species": "Alien",
+          "gender": "Female",
+          "location": {
+            "name": "Purge Planet"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/26.jpeg"
+        },
+        {
+          "name": "Artist Morty",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "location": {
+            "name": "Citadel of Ricks"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/27.jpeg"
+        },
+        {
+          "name": "Attila Starwar",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "location": {
+            "name": "Interdimensional Cable"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/28.jpeg"
+        },
+        {
+          "name": "Baby Legs",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Male",
+          "location": {
+            "name": "Interdimensional Cable"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/29.jpeg"
+        },
+        {
+          "name": "Baby Poopybutthole",
+          "status": "Alive",
+          "species": "Poopybutthole",
+          "gender": "Male",
+          "location": {
+            "name": "unknown"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/30.jpeg"
+        },
+        {
+          "name": "Benjamin",
+          "status": "Alive",
+          "species": "Poopybutthole",
+          "gender": "Male",
+          "location": {
+            "name": "Interdimensional Cable"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/34.jpeg"
+        },
+        {
+          "name": "Bepisian",
+          "status": "Alive",
+          "species": "Alien",
+          "gender": "unknown",
+          "location": {
+            "name": "Bepis 9"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/35.jpeg"
+        },
+        {
+          "name": "Beta-Seven",
+          "status": "Alive",
+          "species": "Alien",
+          "gender": "unknown",
+          "location": {
+            "name": "unknown"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/36.jpeg"
+        },
+        {
+          "name": "Beth Sanchez",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Female",
+          "location": {
+            "name": "Earth (C-500A)"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/37.jpeg"
+        },
+        {
+          "name": "Beth Smith",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Female",
+          "location": {
+            "name": "Earth (C-137)"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/38.jpeg"
+        },
+        {
+          "name": "Beth Smith",
+          "status": "Alive",
+          "species": "Human",
+          "gender": "Female",
+          "location": {
+            "name": "Earth (Evil Rick's Target Dimension)"
+          },
+          "image": "https://rickandmortyapi.com/api/character/avatar/39.jpeg"
+        }
+      ]
+    
+}
