@@ -4,7 +4,7 @@
 
 * Rails version => 5.2.2
 
-* About
+* About  
   App displays data get from https://rickandmortyapi.com  
   So far only characters are supported  
   To search for specific hero, type name and press search button  
